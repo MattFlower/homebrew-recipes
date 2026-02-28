@@ -1,8 +1,8 @@
 class CcFocus < Formula
   desc "macOS menu bar status indicator for Claude Code sessions"
   homepage "https://github.com/MattFlower/cc-focus"
-  url "https://github.com/MattFlower/cc-focus/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "5ad4a9acbaf23aa7921aa739c28e062d1cd6deafc2ae0e658be0cc538c0edae7"
+  url "https://github.com/MattFlower/cc-focus/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "dc52f84a9805064606f68f9ac1a46f60d3069343a167d040bf552e0b132c83f2"
   license "MIT"
   head "https://github.com/MattFlower/cc-focus.git", branch: "main"
 
