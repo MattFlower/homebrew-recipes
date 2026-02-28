@@ -9,6 +9,8 @@ class CcFocus < Formula
   depends_on :macos
 
   def install
+    inreplace "cc-focus.swift", 'let ccFocusVersion = "dev"',
+                                "let ccFocusVersion = \"#{version}\""
     system "swiftc", "cc-focus.swift", "-o", "cc-focus",
            "-framework", "AppKit", "-swift-version", "5", "-O"
     bin.install "cc-focus"
