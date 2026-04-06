@@ -1,6 +1,6 @@
 cask "tempest" do
-  version "0.9.1"
-  sha256 "c33ed146f10a56c1fac261c9bd5e0b2355e19910d933166275e42b73a19cc1f8"
+  version "0.9.2"
+  sha256 "eaaf702e79175a18f32935ede26774924f50aa3efff9ba97767c1e20f4604342"
 
   url "https://github.com/MattFlower/tempest/releases/download/v#{version}/Tempest.dmg"
   name "Tempest"
